@@ -1,6 +1,6 @@
 # VK::Bot::Types
 
-Dry-struct for VK Group Bot API.
+Dry-struct for VK Group Bot API 5.92.
 
 ## Installation
 

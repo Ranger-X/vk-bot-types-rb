@@ -3,7 +3,7 @@ module VK
     module Types
       class BaseObjectWithName < Base
         # Object ID
-        attribute :id, Types::Strict::Int
+        attribute :id, Types::Strict::Integer
 
         # Object name
         attribute :name, Types::Strict::String

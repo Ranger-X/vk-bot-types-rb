@@ -36,10 +36,10 @@ module VK
         attribute :can_send_friend_request, BaseBoolInt.optional
 
         # Owner in whitelist or not
-        attribute :can_subscribe_podcasts, Types::Bool.optional
+        attribute :can_subscribe_podcasts, Types::Strict::Bool.optional
 
         # Can subscribe to wall
-        attribute :can_subscribe_posts, Types::Bool.optional
+        attribute :can_subscribe_posts, Types::Strict::Bool.optional
 
         # Information whether current user can write private message
         attribute :can_write_private_message, BaseBoolInt.optional
@@ -116,7 +116,7 @@ module VK
         attribute :is_hidden_from_feed, BaseBoolInt.optional
 
         # Information whether current user is subscribed to podcasts
-        attribute :is_subscribed_podcasts, Types::Bool.optional
+        attribute :is_subscribed_podcasts, Types::Strict::Bool.optional
 
         attribute :last_seen, UsersLastSeen.optional
 
